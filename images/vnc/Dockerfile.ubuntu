@@ -36,7 +36,8 @@ RUN apt-get update && apt-get install -y \
   x11-xkb-utils \
   xauth \
   xfonts-base \
-  xkb-data
+  xkb-data \
+  libegl1-mesa
 
 # Install quality of life packages.
 RUN yes | unminimize
