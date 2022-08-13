@@ -16,7 +16,7 @@ IMAGES=(
   "vnc"
 
   # We can build these images in any order
-  "android"
+  # "android"
   "clion"
   "goland"
   "intellij"
